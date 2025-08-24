@@ -15,7 +15,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className="w-full px-5 md:px-20 py-3 md:py-6">
+    <header className="w-full px-5 md:px-20 py-3 md:py-6 relative z-50">
       <nav className="flex items-center justify-between">
         {/* Left */}
         <div className="flex items-center gap-5 md:gap-20">

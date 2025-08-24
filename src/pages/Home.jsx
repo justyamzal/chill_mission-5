@@ -29,11 +29,10 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <section className="w-full px-5 md:px-20 py-5 md:py-10">
+        <section className="w-full px-5 md:px-20 py-5 md:py-10 history-carousel">
           <h3 className="text-2xl md:text-[32px] font-bold pb-5 md:pb-8">Melanjutkan Tontonan Film</h3>
           <Carousel items={historyItems} history />
         </section>
-
         <Carousel title="Top Rating Film dan Series Hari ini" items={topItems} />
         <Carousel title="Film Trending" items={trendItems} />
         <Carousel title="Rilis Baru" items={newItems} />
