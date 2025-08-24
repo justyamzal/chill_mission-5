@@ -21,9 +21,9 @@ export default function Navbar() {
         {/* Left */}
         <div className="flex items-center gap-5 md:gap-20">
           {/* desktop logo */}
-          <img src="../public/icon/logo.svg" alt="logo" className="hidden md:block w-[104px]" />
+          <img src="/icon/logo.svg" alt="logo" className="hidden md:block w-[104px]" />
           {/* mobile logo */}
-          <img src="../public/icon/chill-icon.svg" alt="chill" className="block md:hidden w-6 h-6" />
+          <img src="/icon/chill-icon.svg" alt="chill" className="block md:hidden w-6 h-6" />
 
           <ul className="hidden md:flex items-center gap-20">
             <li><a className="hover:text-blue-500" href="#">Series</a></li>
@@ -38,8 +38,8 @@ export default function Navbar() {
             className="flex items-center gap-2"
             onClick={() => setOpen((v) => !v)}
           >
-            <img src="../public/icon/avatar_profile.png" alt="avatar" className="w-10 h-10 rounded-full" />
-            <img src="../public/icon/vector_arrow.svg" alt="" className="hidden md:block" />
+            <img src="/icon/avatar_profile.png" alt="avatar" className="w-10 h-10 rounded-full" />
+            <img src="/icon/vector_arrow.svg" alt="" className="hidden md:block" />
           </button>
 
           {/* Dropdown */}
