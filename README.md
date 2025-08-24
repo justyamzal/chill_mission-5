@@ -1,11 +1,17 @@
+# Mission Intemediate FE 1 - CHILL + ReactJS + Vite
+Mission Objective
 
+Dengan mengerjakan mission dalam topik ReactJS ini, diharapkan Student bisa memahami konsep-konsep penting yang digunakan dalam library ReactJS dan bagaimana implementasi React dapat membantu mempercepat proses pembuatan UI sebuah website.
 
+## Skill Set yang diperoleh
+- Mampu memahami konsep UI Component dalam React
+- Mengimplementasikan konsep Reusable Component dengan memanfaatkan Props untuk passing data
+- Mengimplementasikan UI yang responsif untuk berbagai ukuran device
 
+## Case Brief
+- Sebagai Junior Developer di sebuah startup tech, kamu diminta oleh user untuk menciptakan sebuah website statis berbasis React JS dengan tujuan melatih kemampuan dasar. Sebagai permulaan, kamu bisa membuat 3 halaman yang terdiri dari registrasi, login, dan homepage terlebih dahulu. Kamu bisa mengembangkan halaman lainnya jika merasa sudah nyaman dengan menggunakan ReactJS.
 
-
-
-
-## React + Vite
+# React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
