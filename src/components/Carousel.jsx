@@ -1,12 +1,12 @@
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 export default function Carousel({
-  title,        // judul section
-  items,        // array { src, title?, rating? }
-  perPage = 5,  // default top/trend/new
-  history = false, // jika true, pakai kartu “movie-card” ala history
+  title,        
+  items,       
+  perPage = 5,  
+  history = false, 
 }) {
-  // opsi responsif mirip script aslinya
+ 
   const options = history
     ? {
         type: "loop",
@@ -47,12 +47,12 @@ export default function Carousel({
         </h3>
       )}
 
-      {/* tambahkan className agar CSS panah khusus history bisa nempel */}
+      {/* adding className for CSS history splide arrow */}
       <Splide aria-label={title} options={options} className={history ? "history-carousel" : undefined}>
         {items.map((item, i) => (
           <SplideSlide key={i}>
             {history ? (
-              // === Perubahan utama: gunakan w-full + aspect-ratio, bukan width 302px fixed ===
+              
               <div
                 className="relative w-full cursor-pointer overflow-hidden rounded-md"
                 style={{ aspectRatio: "151 / 81" }} // ≈ 302/162

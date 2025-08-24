@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* Font global (opsional, meniru desain lama) */
+/* Font global */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
 @import "@splidejs/splide/css";
@@ -31,7 +31,7 @@ html, body, #root {
   fill: white !important; 
 }
 
-/* Recomomnedation card (top/trend/new) */
+/* Recommedation card (top/trend/new) */
 .reco-slide img {
    width: 234px; 
    height: 365px; 

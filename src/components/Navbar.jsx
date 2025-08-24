@@ -4,7 +4,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const refWrap = useRef(null);
 
-  // klik di luar untuk menutup dropdown
+
   useEffect(() => {
     function onDocClick(e) {
       if (!refWrap.current) return;
