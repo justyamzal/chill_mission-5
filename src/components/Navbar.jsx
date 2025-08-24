@@ -6,6 +6,7 @@ export default function Navbar() {
 
 
   useEffect(() => {
+
     function onDocClick(e) {
       if (!refWrap.current) return;
       if (!refWrap.current.contains(e.target)) setOpen(false);
