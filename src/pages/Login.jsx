@@ -11,7 +11,7 @@ export default function Login() {
         <section className="w-full rounded-2xl bg-[rgba(24,26,28,0.84)] p-10 shadow-lg">
           {/* Header */}
           <header className="mb-9 flex flex-col items-center gap-9 text-center">
-            <img src="../public/icon/Logo.png" alt="logo" className="w-40 md:w-48" />
+            <img src="/icon/Logo.png" alt="logo" className="w-40 md:w-48" />
             <div className="flex flex-col gap-2">
               <h3 className="text-2xl font-bold md:text-3xl">Masuk</h3>
               <p className="text-base leading-relaxed text-zinc-200">
