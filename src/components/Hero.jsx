@@ -17,7 +17,7 @@ export default function Hero() {
           <div className="flex items-center gap-2 md:gap-3">
             <button className="rounded-full bg-[rgba(15,30,147,1)] px-4 md:px-6 py-2 text-sm md:text-base font-bold">Mulai</button>
             <button className="rounded-full bg-[rgba(34,40,42,1)] px-4 md:px-6 py-2 text-sm md:text-base font-bold flex items-center gap-2">
-              <img src="../public/icon/info.svg" alt="" className="w-5 h-5" />
+              <img src="/icon/info.svg" alt="" className="w-5 h-5" />
               <span>Selengkapnya</span>
             </button>
             <span className="flex items-center justify-center rounded-full border border-zinc-400/80 w-[52px] h-[45px] text-sm">
@@ -26,7 +26,7 @@ export default function Hero() {
           </div>
 
           <div className="hidden md:block">
-            <img src="../public/icon/volume-off.svg" alt="mute" />
+            <img src="/icon/volume-off.svg" alt="mute" />
           </div>
         </div>
       </div>
