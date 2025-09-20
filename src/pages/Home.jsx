@@ -3,6 +3,8 @@ import Hero from "../components/Hero";
 import Carousel from "../components/Carousel";
 import Footer from "../components/Footer";
 
+
+
 const historyItems = [
   { src: "/content-img/history_1.webp", title: "Dont Look Up", rating: "4.5/5" },
   { src: "/content-img/history_2.webp", title: "All of Us Are Dead", rating: "4.2/5" },
